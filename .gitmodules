@@ -1,0 +1,3 @@
+[submodule "src/AFOAuth1Client"]
+	path = src/AFOAuth1Client
+	url = https://github.com/AFNetworking/AFOAuth1Client.git

@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82F294C171F88A200BFFD4D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F294B171F88A200BFFD4D /* MobileCoreServices.framework */; };
+		F82F294E171F8BE000BFFD4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F294D171F8BE000BFFD4D /* UIKit.framework */; };
+		F85D180F1720DB30008B239D /* WFOAuthCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D180E1720DB30008B239D /* WFOAuthCredential.m */; };
+		F85D1818172134C6008B239D /* WFError.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D1817172134C6008B239D /* WFError.m */; };
+		F85D181B172373F0008B239D /* WFOAuthConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D181A172373F0008B239D /* WFOAuthConnection.m */; };
+		F86A81F9173A858B001856EC /* WFAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A81F8173A858B001856EC /* WFAccount.m */; };
+		F86A81FA173A858B001856EC /* WFAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A81F8173A858B001856EC /* WFAccount.m */; };
+		F86A8216173E768C001856EC /* WFTwitterConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A8215173E768C001856EC /* WFTwitterConnector.m */; };
+		F86A8217173E768C001856EC /* WFTwitterConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A8215173E768C001856EC /* WFTwitterConnector.m */; };
+		F86A822017427E64001856EC /* WFTwitterStreamEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A821F17427E64001856EC /* WFTwitterStreamEvent.m */; };
+		F86A822317431FDE001856EC /* WFTwitterStreamObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A822217431FDE001856EC /* WFTwitterStreamObserver.m */; };
+		F86A822B1744D6A1001856EC /* WFTwitterVerifyCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A822A1744D6A1001856EC /* WFTwitterVerifyCredential.m */; };
+		F86A822C1744D6A1001856EC /* WFTwitterVerifyCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = F86A822A1744D6A1001856EC /* WFTwitterVerifyCredential.m */; };
+		F872247A1738D2580007073A /* WFTwitterSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E382A172E73F80028993D /* WFTwitterSetting.m */; };
+		F872247B1738D2620007073A /* WFTwitterSettingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E382E172FBB580028993D /* WFTwitterSettingInternal.m */; };
+		F872247C1738D2640007073A /* WFTwitterObserverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E383517300B5B0028993D /* WFTwitterObserverManager.m */; };
+		F872247D1738D2670007073A /* WFTwitterTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E27B40173605920085DA03 /* WFTwitterTokenRequest.m */; };
+		F87224801738D2750007073A /* WFOAuthCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E3827172E73AC0028993D /* WFOAuthCredentialStore.m */; };
+		F87C8E7B171D0DDE00BB5501 /* WFTwitterFetchObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C8E7A171D0DDE00BB5501 /* WFTwitterFetchObserver.m */; };
+		F87C8E7E171D0DEE00BB5501 /* WFSocialListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C8E7D171D0DEE00BB5501 /* WFSocialListener.m */; };
+		F88F899C1726317B00DBAADC /* WFSocialListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C8E7D171D0DEE00BB5501 /* WFSocialListener.m */; };
+		F88F899D1726318900DBAADC /* WFError.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D1817172134C6008B239D /* WFError.m */; };
+		F88F899E1726318C00DBAADC /* WFOAuthCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D180E1720DB30008B239D /* WFOAuthCredential.m */; };
+		F88F899F1726318F00DBAADC /* WFOAuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C51024172016D00080523F /* WFOAuthToken.m */; };
+		F88F89A01726319200DBAADC /* WFOAuthConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D181A172373F0008B239D /* WFOAuthConnection.m */; };
+		F88F89A31726319D00DBAADC /* WFReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660017165C0D003E7E3E /* WFReachability.m */; };
+		F88F89A5172631A200DBAADC /* WFConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660217165C0D003E7E3E /* WFConnector.m */; };
+		F88F89A6172631A500DBAADC /* WFTwitterFetchObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C8E7A171D0DDE00BB5501 /* WFTwitterFetchObserver.m */; };
+		F88F89A7172631A800DBAADC /* WFTwitterStreamConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660417165C0D003E7E3E /* WFTwitterStreamConnector.m */; };
+		F88F89A9172668E400DBAADC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F294B171F88A200BFFD4D /* MobileCoreServices.framework */; };
+		F88F89AA172668EB00DBAADC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661617165C37003E7E3E /* Social.framework */; };
+		F88F89AB172668F200DBAADC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661417165C31003E7E3E /* SystemConfiguration.framework */; };
+		F88F89AC172668FA00DBAADC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661817165C3D003E7E3E /* Accounts.framework */; };
+		F88F89AD1726690600DBAADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F294D171F8BE000BFFD4D /* UIKit.framework */; };
+		F89E3828172E73AC0028993D /* WFOAuthCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E3827172E73AC0028993D /* WFOAuthCredentialStore.m */; };
+		F89E382B172E73F80028993D /* WFTwitterSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E382A172E73F80028993D /* WFTwitterSetting.m */; };
+		F89E382F172FBB580028993D /* WFTwitterSettingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E382E172FBB580028993D /* WFTwitterSettingInternal.m */; };
+		F89E383617300B5B0028993D /* WFTwitterObserverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E383517300B5B0028993D /* WFTwitterObserverManager.m */; };
+		F8A3F0731739C601009BA112 /* WFOAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3F0721739C601009BA112 /* WFOAuthRequest.m */; };
+		F8A3F0741739C601009BA112 /* WFOAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3F0721739C601009BA112 /* WFOAuthRequest.m */; };
+		F8B765D417165B90003E7E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B765D317165B90003E7E3E /* Foundation.framework */; };
+		F8B765E317165B90003E7E3E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B765E217165B90003E7E3E /* SenTestingKit.framework */; };
+		F8B765E617165B90003E7E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B765D317165B90003E7E3E /* Foundation.framework */; };
+		F8B765E917165B90003E7E3E /* libWFSocialListener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B765D017165B90003E7E3E /* libWFSocialListener.a */; };
+		F8B765EF17165B90003E7E3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B765ED17165B90003E7E3E /* InfoPlist.strings */; };
+		F8B765F217165B90003E7E3E /* WFSocialListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B765F117165B90003E7E3E /* WFSocialListenerTests.m */; };
+		F8B7660617165C0D003E7E3E /* WFReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660017165C0D003E7E3E /* WFReachability.m */; };
+		F8B7660717165C0D003E7E3E /* WFConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660217165C0D003E7E3E /* WFConnector.m */; };
+		F8B7660817165C0D003E7E3E /* WFTwitterStreamConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7660417165C0D003E7E3E /* WFTwitterStreamConnector.m */; };
+		F8B7661517165C31003E7E3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661417165C31003E7E3E /* SystemConfiguration.framework */; };
+		F8B7661717165C37003E7E3E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661617165C37003E7E3E /* Social.framework */; };
+		F8B7661917165C3D003E7E3E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B7661817165C3D003E7E3E /* Accounts.framework */; };
+		F8C51025172016D00080523F /* WFOAuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C51024172016D00080523F /* WFOAuthToken.m */; };
+		F8E27B41173605920085DA03 /* WFTwitterTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E27B40173605920085DA03 /* WFTwitterTokenRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B765E717165B90003E7E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B765C817165B90003E7E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B765CF17165B90003E7E3E;
+			remoteInfo = WFSocialListener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8B765CE17165B90003E7E3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F82F294B171F88A200BFFD4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F82F294D171F8BE000BFFD4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F85D180D1720DB30008B239D /* WFOAuthCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthCredential.h; path = WFSocialListener/WFOAuthCredential.h; sourceTree = "<group>"; };
+		F85D180E1720DB30008B239D /* WFOAuthCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFOAuthCredential.m; path = WFSocialListener/WFOAuthCredential.m; sourceTree = "<group>"; };
+		F85D1816172134C6008B239D /* WFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFError.h; path = WFSocialListener/WFError.h; sourceTree = "<group>"; };
+		F85D1817172134C6008B239D /* WFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFError.m; path = WFSocialListener/WFError.m; sourceTree = "<group>"; };
+		F85D1819172373F0008B239D /* WFOAuthConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthConnection.h; path = WFSocialListener/WFOAuthConnection.h; sourceTree = "<group>"; };
+		F85D181A172373F0008B239D /* WFOAuthConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFOAuthConnection.m; path = WFSocialListener/WFOAuthConnection.m; sourceTree = "<group>"; };
+		F86A81F7173A858B001856EC /* WFAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFAccount.h; path = WFSocialListener/WFAccount.h; sourceTree = "<group>"; };
+		F86A81F8173A858B001856EC /* WFAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFAccount.m; path = WFSocialListener/WFAccount.m; sourceTree = "<group>"; };
+		F86A8214173E768C001856EC /* WFTwitterConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterConnector.h; path = WFSocialListener/WFTwitterConnector.h; sourceTree = "<group>"; };
+		F86A8215173E768C001856EC /* WFTwitterConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterConnector.m; path = WFSocialListener/WFTwitterConnector.m; sourceTree = "<group>"; };
+		F86A821E17427E64001856EC /* WFTwitterStreamEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterStreamEvent.h; path = WFSocialListener/WFTwitterStreamEvent.h; sourceTree = "<group>"; };
+		F86A821F17427E64001856EC /* WFTwitterStreamEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterStreamEvent.m; path = WFSocialListener/WFTwitterStreamEvent.m; sourceTree = "<group>"; };
+		F86A822117431FDE001856EC /* WFTwitterStreamObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterStreamObserver.h; path = WFSocialListener/WFTwitterStreamObserver.h; sourceTree = "<group>"; };
+		F86A822217431FDE001856EC /* WFTwitterStreamObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterStreamObserver.m; path = WFSocialListener/WFTwitterStreamObserver.m; sourceTree = "<group>"; };
+		F86A82291744D6A1001856EC /* WFTwitterVerifyCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterVerifyCredential.h; path = WFSocialListener/WFTwitterVerifyCredential.h; sourceTree = "<group>"; };
+		F86A822A1744D6A1001856EC /* WFTwitterVerifyCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterVerifyCredential.m; path = WFSocialListener/WFTwitterVerifyCredential.m; sourceTree = "<group>"; };
+		F87C8E79171D0DDE00BB5501 /* WFTwitterFetchObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterFetchObserver.h; path = WFSocialListener/WFTwitterFetchObserver.h; sourceTree = "<group>"; };
+		F87C8E7A171D0DDE00BB5501 /* WFTwitterFetchObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterFetchObserver.m; path = WFSocialListener/WFTwitterFetchObserver.m; sourceTree = "<group>"; };
+		F87C8E7C171D0DEE00BB5501 /* WFSocialListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFSocialListener.h; sourceTree = "<group>"; };
+		F87C8E7D171D0DEE00BB5501 /* WFSocialListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFSocialListener.m; sourceTree = "<group>"; };
+		F89E381F172D77710028993D /* WFOAuthDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthDefinitions.h; path = WFSocialListener/WFOAuthDefinitions.h; sourceTree = "<group>"; };
+		F89E3826172E73AC0028993D /* WFOAuthCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthCredentialStore.h; path = WFSocialListener/WFOAuthCredentialStore.h; sourceTree = "<group>"; };
+		F89E3827172E73AC0028993D /* WFOAuthCredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFOAuthCredentialStore.m; path = WFSocialListener/WFOAuthCredentialStore.m; sourceTree = "<group>"; };
+		F89E3829172E73F80028993D /* WFTwitterSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTwitterSetting.h; sourceTree = "<group>"; };
+		F89E382A172E73F80028993D /* WFTwitterSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTwitterSetting.m; sourceTree = "<group>"; };
+		F89E382D172FBB580028993D /* WFTwitterSettingInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterSettingInternal.h; path = WFSocialListener/WFTwitterSettingInternal.h; sourceTree = "<group>"; };
+		F89E382E172FBB580028993D /* WFTwitterSettingInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterSettingInternal.m; path = WFSocialListener/WFTwitterSettingInternal.m; sourceTree = "<group>"; };
+		F89E383417300B5B0028993D /* WFTwitterObserverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterObserverManager.h; path = WFSocialListener/WFTwitterObserverManager.h; sourceTree = "<group>"; };
+		F89E383517300B5B0028993D /* WFTwitterObserverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterObserverManager.m; path = WFSocialListener/WFTwitterObserverManager.m; sourceTree = "<group>"; };
+		F8A3F0711739C601009BA112 /* WFOAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthRequest.h; path = WFSocialListener/WFOAuthRequest.h; sourceTree = "<group>"; };
+		F8A3F0721739C601009BA112 /* WFOAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFOAuthRequest.m; path = WFSocialListener/WFOAuthRequest.m; sourceTree = "<group>"; };
+		F8B765D017165B90003E7E3E /* libWFSocialListener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWFSocialListener.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B765D317165B90003E7E3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8B765D717165B90003E7E3E /* WFSocialListener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WFSocialListener-Prefix.pch"; sourceTree = "<group>"; };
+		F8B765E117165B90003E7E3E /* WFSocialListenerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFSocialListenerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B765E217165B90003E7E3E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8B765EC17165B90003E7E3E /* WFSocialListenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WFSocialListenerTests-Info.plist"; sourceTree = "<group>"; };
+		F8B765EE17165B90003E7E3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8B765F017165B90003E7E3E /* WFSocialListenerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSocialListenerTests.h; sourceTree = "<group>"; };
+		F8B765F117165B90003E7E3E /* WFSocialListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFSocialListenerTests.m; sourceTree = "<group>"; };
+		F8B765FF17165C0D003E7E3E /* WFReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFReachability.h; path = WFSocialListener/WFReachability.h; sourceTree = "<group>"; };
+		F8B7660017165C0D003E7E3E /* WFReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFReachability.m; path = WFSocialListener/WFReachability.m; sourceTree = "<group>"; };
+		F8B7660117165C0D003E7E3E /* WFConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFConnector.h; path = WFSocialListener/WFConnector.h; sourceTree = "<group>"; };
+		F8B7660217165C0D003E7E3E /* WFConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFConnector.m; path = WFSocialListener/WFConnector.m; sourceTree = "<group>"; };
+		F8B7660317165C0D003E7E3E /* WFTwitterStreamConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterStreamConnector.h; path = WFSocialListener/WFTwitterStreamConnector.h; sourceTree = "<group>"; };
+		F8B7660417165C0D003E7E3E /* WFTwitterStreamConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterStreamConnector.m; path = WFSocialListener/WFTwitterStreamConnector.m; sourceTree = "<group>"; };
+		F8B7661417165C31003E7E3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F8B7661617165C37003E7E3E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F8B7661817165C3D003E7E3E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F8C51023172016D00080523F /* WFOAuthToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFOAuthToken.h; path = WFSocialListener/WFOAuthToken.h; sourceTree = "<group>"; };
+		F8C51024172016D00080523F /* WFOAuthToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFOAuthToken.m; path = WFSocialListener/WFOAuthToken.m; sourceTree = "<group>"; };
+		F8E27B3F173605920085DA03 /* WFTwitterTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterTokenRequest.h; path = WFSocialListener/WFTwitterTokenRequest.h; sourceTree = "<group>"; };
+		F8E27B40173605920085DA03 /* WFTwitterTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterTokenRequest.m; path = WFSocialListener/WFTwitterTokenRequest.m; sourceTree = "<group>"; };
+		F8E27B421736675D0085DA03 /* WFTwitterAccountVerifyCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFTwitterAccountVerifyCredentials.h; path = WFSocialListener/WFTwitterAccountVerifyCredentials.h; sourceTree = "<group>"; };
+		F8E27B431736675D0085DA03 /* WFTwitterAccountVerifyCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFTwitterAccountVerifyCredentials.m; path = WFSocialListener/WFTwitterAccountVerifyCredentials.m; sourceTree = "<group>"; };
+		F8E27B451737458F0085DA03 /* WFOAuthTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WFOAuthTypes.h; path = WFSocialListener/WFOAuthTypes.h; sourceTree = "<group>"; };
+		F8E27B46173776870085DA03 /* WFTwitterTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WFTwitterTypes.h; path = WFSocialListener/WFTwitterTypes.h; sourceTree = "<group>"; };
+		F8E7FD1F17178CA60059A92F /* WFSocialListenerTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSocialListenerTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B765CD17165B90003E7E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82F294E171F8BE000BFFD4D /* UIKit.framework in Frameworks */,
+				F82F294C171F88A200BFFD4D /* MobileCoreServices.framework in Frameworks */,
+				F8B7661917165C3D003E7E3E /* Accounts.framework in Frameworks */,
+				F8B7661717165C37003E7E3E /* Social.framework in Frameworks */,
+				F8B7661517165C31003E7E3E /* SystemConfiguration.framework in Frameworks */,
+				F8B765D417165B90003E7E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B765DD17165B90003E7E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88F89AD1726690600DBAADC /* UIKit.framework in Frameworks */,
+				F88F89AC172668FA00DBAADC /* Accounts.framework in Frameworks */,
+				F88F89AB172668F200DBAADC /* SystemConfiguration.framework in Frameworks */,
+				F88F89AA172668EB00DBAADC /* Social.framework in Frameworks */,
+				F88F89A9172668E400DBAADC /* MobileCoreServices.framework in Frameworks */,
+				F8B765E317165B90003E7E3E /* SenTestingKit.framework in Frameworks */,
+				F8B765E617165B90003E7E3E /* Foundation.framework in Frameworks */,
+				F8B765E917165B90003E7E3E /* libWFSocialListener.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86A82181740D10A001856EC /* dispose */ = {
+			isa = PBXGroup;
+			children = (
+				F8E27B421736675D0085DA03 /* WFTwitterAccountVerifyCredentials.h */,
+				F8E27B431736675D0085DA03 /* WFTwitterAccountVerifyCredentials.m */,
+			);
+			name = dispose;
+			sourceTree = "<group>";
+		};
+		F86A821D17427BBC001856EC /* twitter_stream */ = {
+			isa = PBXGroup;
+			children = (
+				F8B7660317165C0D003E7E3E /* WFTwitterStreamConnector.h */,
+				F8B7660417165C0D003E7E3E /* WFTwitterStreamConnector.m */,
+				F86A821E17427E64001856EC /* WFTwitterStreamEvent.h */,
+				F86A821F17427E64001856EC /* WFTwitterStreamEvent.m */,
+			);
+			name = twitter_stream;
+			sourceTree = "<group>";
+		};
+		F89E382C172FBB270028993D /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				F89E382D172FBB580028993D /* WFTwitterSettingInternal.h */,
+				F89E382E172FBB580028993D /* WFTwitterSettingInternal.m */,
+				F89E383417300B5B0028993D /* WFTwitterObserverManager.h */,
+				F89E383517300B5B0028993D /* WFTwitterObserverManager.m */,
+				F87C8E79171D0DDE00BB5501 /* WFTwitterFetchObserver.h */,
+				F87C8E7A171D0DDE00BB5501 /* WFTwitterFetchObserver.m */,
+				F86A822117431FDE001856EC /* WFTwitterStreamObserver.h */,
+				F86A822217431FDE001856EC /* WFTwitterStreamObserver.m */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		F89E3833172FBDDD0028993D /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				F8E27B46173776870085DA03 /* WFTwitterTypes.h */,
+				F86A8214173E768C001856EC /* WFTwitterConnector.h */,
+				F86A8215173E768C001856EC /* WFTwitterConnector.m */,
+				F8E27B3F173605920085DA03 /* WFTwitterTokenRequest.h */,
+				F8E27B40173605920085DA03 /* WFTwitterTokenRequest.m */,
+				F86A82291744D6A1001856EC /* WFTwitterVerifyCredential.h */,
+				F86A822A1744D6A1001856EC /* WFTwitterVerifyCredential.m */,
+			);
+			name = twitter;
+			sourceTree = "<group>";
+		};
+		F8B765C717165B90003E7E3E = {
+			isa = PBXGroup;
+			children = (
+				F8E7FD1F17178CA60059A92F /* WFSocialListenerTypes.h */,
+				F89E3829172E73F80028993D /* WFTwitterSetting.h */,
+				F89E382A172E73F80028993D /* WFTwitterSetting.m */,
+				F87C8E7C171D0DEE00BB5501 /* WFSocialListener.h */,
+				F87C8E7D171D0DEE00BB5501 /* WFSocialListener.m */,
+				F89E382C172FBB270028993D /* internal */,
+				F86A821D17427BBC001856EC /* twitter_stream */,
+				F89E3833172FBDDD0028993D /* twitter */,
+				F8B765FB17165BC1003E7E3E /* networking */,
+				F8C51022172012660080523F /* OAuth1 */,
+				F86A82181740D10A001856EC /* dispose */,
+				F8B765D617165B90003E7E3E /* Supporting Files */,
+				F8B765EA17165B90003E7E3E /* WFSocialListenerTests */,
+				F8B765D217165B90003E7E3E /* Frameworks */,
+				F8B765D117165B90003E7E3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B765D117165B90003E7E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B765D017165B90003E7E3E /* libWFSocialListener.a */,
+				F8B765E117165B90003E7E3E /* WFSocialListenerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B765D217165B90003E7E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82F294D171F8BE000BFFD4D /* UIKit.framework */,
+				F82F294B171F88A200BFFD4D /* MobileCoreServices.framework */,
+				F8B7661817165C3D003E7E3E /* Accounts.framework */,
+				F8B7661617165C37003E7E3E /* Social.framework */,
+				F8B7661417165C31003E7E3E /* SystemConfiguration.framework */,
+				F8B765D317165B90003E7E3E /* Foundation.framework */,
+				F8B765E217165B90003E7E3E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B765D617165B90003E7E3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B765D717165B90003E7E3E /* WFSocialListener-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = WFSocialListener;
+			sourceTree = "<group>";
+		};
+		F8B765EA17165B90003E7E3E /* WFSocialListenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B765F017165B90003E7E3E /* WFSocialListenerTests.h */,
+				F8B765F117165B90003E7E3E /* WFSocialListenerTests.m */,
+				F8B765EB17165B90003E7E3E /* Supporting Files */,
+			);
+			path = WFSocialListenerTests;
+			sourceTree = "<group>";
+		};
+		F8B765EB17165B90003E7E3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B765EC17165B90003E7E3E /* WFSocialListenerTests-Info.plist */,
+				F8B765ED17165B90003E7E3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8B765FB17165BC1003E7E3E /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				F85D1816172134C6008B239D /* WFError.h */,
+				F85D1817172134C6008B239D /* WFError.m */,
+				F8B765FF17165C0D003E7E3E /* WFReachability.h */,
+				F8B7660017165C0D003E7E3E /* WFReachability.m */,
+				F86A81F7173A858B001856EC /* WFAccount.h */,
+				F86A81F8173A858B001856EC /* WFAccount.m */,
+				F8B7660117165C0D003E7E3E /* WFConnector.h */,
+				F8B7660217165C0D003E7E3E /* WFConnector.m */,
+			);
+			name = networking;
+			sourceTree = "<group>";
+		};
+		F8C51022172012660080523F /* OAuth1 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E27B451737458F0085DA03 /* WFOAuthTypes.h */,
+				F89E381F172D77710028993D /* WFOAuthDefinitions.h */,
+				F89E3826172E73AC0028993D /* WFOAuthCredentialStore.h */,
+				F89E3827172E73AC0028993D /* WFOAuthCredentialStore.m */,
+				F85D180D1720DB30008B239D /* WFOAuthCredential.h */,
+				F85D180E1720DB30008B239D /* WFOAuthCredential.m */,
+				F8C51023172016D00080523F /* WFOAuthToken.h */,
+				F8C51024172016D00080523F /* WFOAuthToken.m */,
+				F8A3F0711739C601009BA112 /* WFOAuthRequest.h */,
+				F8A3F0721739C601009BA112 /* WFOAuthRequest.m */,
+				F85D1819172373F0008B239D /* WFOAuthConnection.h */,
+				F85D181A172373F0008B239D /* WFOAuthConnection.m */,
+			);
+			name = OAuth1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B765CF17165B90003E7E3E /* WFSocialListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B765F517165B90003E7E3E /* Build configuration list for PBXNativeTarget "WFSocialListener" */;
+			buildPhases = (
+				F8B765CC17165B90003E7E3E /* Sources */,
+				F8B765CD17165B90003E7E3E /* Frameworks */,
+				F8B765CE17165B90003E7E3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFSocialListener;
+			productName = WFSocialListener;
+			productReference = F8B765D017165B90003E7E3E /* libWFSocialListener.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8B765E017165B90003E7E3E /* WFSocialListenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B765F817165B90003E7E3E /* Build configuration list for PBXNativeTarget "WFSocialListenerTests" */;
+			buildPhases = (
+				F8B765DC17165B90003E7E3E /* Sources */,
+				F8B765DD17165B90003E7E3E /* Frameworks */,
+				F8B765DE17165B90003E7E3E /* Resources */,
+				F8B765DF17165B90003E7E3E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B765E817165B90003E7E3E /* PBXTargetDependency */,
+			);
+			name = WFSocialListenerTests;
+			productName = WFSocialListenerTests;
+			productReference = F8B765E117165B90003E7E3E /* WFSocialListenerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B765C817165B90003E7E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Akihiro Uehara";
+			};
+			buildConfigurationList = F8B765CB17165B90003E7E3E /* Build configuration list for PBXProject "WFSocialListener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8B765C717165B90003E7E3E;
+			productRefGroup = F8B765D117165B90003E7E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B765CF17165B90003E7E3E /* WFSocialListener */,
+				F8B765E017165B90003E7E3E /* WFSocialListenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B765DE17165B90003E7E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B765EF17165B90003E7E3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8B765DF17165B90003E7E3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B765CC17165B90003E7E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B7660617165C0D003E7E3E /* WFReachability.m in Sources */,
+				F8B7660717165C0D003E7E3E /* WFConnector.m in Sources */,
+				F8B7660817165C0D003E7E3E /* WFTwitterStreamConnector.m in Sources */,
+				F87C8E7B171D0DDE00BB5501 /* WFTwitterFetchObserver.m in Sources */,
+				F87C8E7E171D0DEE00BB5501 /* WFSocialListener.m in Sources */,
+				F8C51025172016D00080523F /* WFOAuthToken.m in Sources */,
+				F85D180F1720DB30008B239D /* WFOAuthCredential.m in Sources */,
+				F85D1818172134C6008B239D /* WFError.m in Sources */,
+				F85D181B172373F0008B239D /* WFOAuthConnection.m in Sources */,
+				F89E3828172E73AC0028993D /* WFOAuthCredentialStore.m in Sources */,
+				F89E382B172E73F80028993D /* WFTwitterSetting.m in Sources */,
+				F89E382F172FBB580028993D /* WFTwitterSettingInternal.m in Sources */,
+				F89E383617300B5B0028993D /* WFTwitterObserverManager.m in Sources */,
+				F8E27B41173605920085DA03 /* WFTwitterTokenRequest.m in Sources */,
+				F8A3F0731739C601009BA112 /* WFOAuthRequest.m in Sources */,
+				F86A81F9173A858B001856EC /* WFAccount.m in Sources */,
+				F86A8216173E768C001856EC /* WFTwitterConnector.m in Sources */,
+				F86A822017427E64001856EC /* WFTwitterStreamEvent.m in Sources */,
+				F86A822317431FDE001856EC /* WFTwitterStreamObserver.m in Sources */,
+				F86A822B1744D6A1001856EC /* WFTwitterVerifyCredential.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B765DC17165B90003E7E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B765F217165B90003E7E3E /* WFSocialListenerTests.m in Sources */,
+				F88F899C1726317B00DBAADC /* WFSocialListener.m in Sources */,
+				F88F899D1726318900DBAADC /* WFError.m in Sources */,
+				F88F899E1726318C00DBAADC /* WFOAuthCredential.m in Sources */,
+				F88F899F1726318F00DBAADC /* WFOAuthToken.m in Sources */,
+				F88F89A01726319200DBAADC /* WFOAuthConnection.m in Sources */,
+				F88F89A31726319D00DBAADC /* WFReachability.m in Sources */,
+				F88F89A5172631A200DBAADC /* WFConnector.m in Sources */,
+				F88F89A6172631A500DBAADC /* WFTwitterFetchObserver.m in Sources */,
+				F88F89A7172631A800DBAADC /* WFTwitterStreamConnector.m in Sources */,
+				F872247A1738D2580007073A /* WFTwitterSetting.m in Sources */,
+				F872247B1738D2620007073A /* WFTwitterSettingInternal.m in Sources */,
+				F872247C1738D2640007073A /* WFTwitterObserverManager.m in Sources */,
+				F872247D1738D2670007073A /* WFTwitterTokenRequest.m in Sources */,
+				F87224801738D2750007073A /* WFOAuthCredentialStore.m in Sources */,
+				F8A3F0741739C601009BA112 /* WFOAuthRequest.m in Sources */,
+				F86A81FA173A858B001856EC /* WFAccount.m in Sources */,
+				F86A8217173E768C001856EC /* WFTwitterConnector.m in Sources */,
+				F86A822C1744D6A1001856EC /* WFTwitterVerifyCredential.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B765E817165B90003E7E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B765CF17165B90003E7E3E /* WFSocialListener */;
+			targetProxy = F8B765E717165B90003E7E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8B765ED17165B90003E7E3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B765EE17165B90003E7E3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8B765F317165B90003E7E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8B765F417165B90003E7E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B765F617165B90003E7E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WFSocialListener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WFSocialListener/WFSocialListener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8B765F717165B90003E7E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WFSocialListener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WFSocialListener/WFSocialListener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8B765F917165B90003E7E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WFSocialListener/WFSocialListener-Prefix.pch";
+				INFOPLIST_FILE = "WFSocialListenerTests/WFSocialListenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F8B765FA17165B90003E7E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WFSocialListener/WFSocialListener-Prefix.pch";
+				INFOPLIST_FILE = "WFSocialListenerTests/WFSocialListenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B765CB17165B90003E7E3E /* Build configuration list for PBXProject "WFSocialListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B765F317165B90003E7E3E /* Debug */,
+				F8B765F417165B90003E7E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B765F517165B90003E7E3E /* Build configuration list for PBXNativeTarget "WFSocialListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B765F617165B90003E7E3E /* Debug */,
+				F8B765F717165B90003E7E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B765F817165B90003E7E3E /* Build configuration list for PBXNativeTarget "WFSocialListenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B765F917165B90003E7E3E /* Debug */,
+				F8B765FA17165B90003E7E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B765C817165B90003E7E3E /* Project object */;
+}
