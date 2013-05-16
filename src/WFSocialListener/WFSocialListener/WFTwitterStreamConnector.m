@@ -96,7 +96,7 @@ typedef enum streamParseStatus {
                 if(data[i] == '\r') {
                     _parserStatus = lookingForDelimiter_r;
                 }
-                [_receivedData appendBytes:&data[index] length:i];
+                [_receivedData appendBytes:&data[index] length:(i -index)];
                 index = i;
                 break;
             default:
