@@ -12,8 +12,7 @@
 #import "WFTwitterStreamObserver.h"
 
 
-//#define FETCH_INTERVAL 60
-#define FETCH_INTERVAL 15
+#define FETCH_INTERVAL 60
 #define QUEUE_NAME "com.wa-fu-u.twitter_fetch_queue"
 
 @interface WFTwitterObserverManager () {
