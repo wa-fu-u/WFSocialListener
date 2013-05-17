@@ -12,10 +12,6 @@
 #import "WFSocialListener/WFReachability.h"
 #import "WFSocialListener/WFTwitterObserverManager.h"
 
-// FIXME アプリ外でアカウントが追加/削除された時の反映処理, アカウント更新時は、conManagerの自動再起動
-// FIXME FavoritedはPollingでは取得APIがない。Streaming時のみ有効とか、明記しておく。
-// FIXME ユーザ名の入力間違い(認証は通った時)、ユーザ名入力が出ない(アプリ認証ボタンに置換される)。キャッシュ削除しても無駄。
-
 @class WFSocialListener;
 @protocol WFSocialListenerDelegate <NSObject>
 - (void)didTwitterUpdated:(WFSocialListener *)sender account:(ACAccount *)account eventType:(WFTwitterEventType)eventType json:(id)json;
