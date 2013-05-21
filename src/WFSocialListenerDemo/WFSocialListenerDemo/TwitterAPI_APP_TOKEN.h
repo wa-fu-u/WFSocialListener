@@ -10,7 +10,7 @@
 #define WFSocialListenerDemo_TwitterAPI_APP_TOKEN_h
 
 // Set your application token
-#define kAppKey    @""
-#define kAppSecret @""
+#define kAppKey    @"ZQry8zIMSI3ZH1k7ThcVJA"
+#define kAppSecret @"DqQuYUPSyIirf43T6Ee7RpWdIH8OvFG9Yk1z3FuetwM"
 
 #endif
