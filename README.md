@@ -8,12 +8,24 @@ Retwets, Direct messags, mentions を検出通知します。ネットワーク�
 
 #設定
 iOSから取得できるクレデンシャルには、ダイレクトメッセージの読み込み権限がありません。このため、ダイレクトメッセージの検出には、ダイレクトメッセージの権限があるアプリケーションキー/シークレットを、開発者自身で取得して設定しなければなりません。
-キー/シークレットは、 OAuthUserAuthenticationViewController.m の定義に記述します。
+キー/シークレットは、 src/WFSocialListenerDemo/WFSocialListenerDemo/TwitterAPI_APP_TOKEN.h の定義に記述します。
 ```
  #define kAppKey    @""
  #define kAppSecret @""
 ```
 
+#コミット時にアプリケーション・トークンを取り除く設定
+自分のアプリケーション・トークンを、コミット時に空文字列に置換するGitの設定を述べます。以下の内容の、ファイル WFSocialListener/.git/info/attributes を作ります。
+```
+TwitterAPI_APP_TOKEN.h filter=emptyString
+```
+次に、configファイル WFSocialListener/.git/config に以下のテキストを追加します。
+```
+[filter "emptyString"]
+	clean = sed -e 's/@\".*\"/@\"\"/g'
+```
+TwitterAPI_APP_TOKEN.h のトークンは、コミット時にsedのワンライナで、空文字列に置換されます。
+	
 #動作の説明
 * Twitterには、リアルタイムに更新を受け取るストリーミングAPIと、クライアントから一定時間ごとに接続して更新を取り出すREST APIの、2つのAPIがあります。
 ** TwitterはストリーミングAPIは安定したネットワーク環境で利用するべし、と説明しています。このライブラリはWiFi接続時にストリーミングAPI、3G接続時にREST APIを使います。
