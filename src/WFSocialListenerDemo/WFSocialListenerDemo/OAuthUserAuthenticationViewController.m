@@ -7,13 +7,13 @@
 //
 
 #import "OAuthUserAuthenticationViewController.h"
-
-#warning 自分のtoken/secretを設定すること
-#define kAppKey    @""
-#define kAppSecret @""
+#import "TwitterAPI_APP_TOKEN.h"
 
 @implementation OAuthUserAuthenticationViewController
 - (void)viewDidAppear:(BOOL)animated {
+    NSAssert([kAppKey length] > 0, @"kAppKey in TwitterAPI_APP_TOKEN.h must be set." );
+    NSAssert([kAppSecret length] > 0, @"kAppSecret in TwitterAPI_APP_TOKEN.h must be set." );
+    
     [self.setting
      requestDMToken:self.webView
      key:kAppKey

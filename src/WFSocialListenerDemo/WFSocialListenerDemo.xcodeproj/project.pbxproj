@@ -63,6 +63,7 @@
 		F82F2948171F889100BFFD4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F86A82241743C1F4001856EC /* TwitterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterListViewController.h; sourceTree = "<group>"; };
 		F86A82251743C1F4001856EC /* TwitterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterListViewController.m; sourceTree = "<group>"; };
+		F86C5C41174B3D540001E954 /* TwitterAPI_APP_TOKEN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterAPI_APP_TOKEN.h; sourceTree = "<group>"; };
 		F87C8E43171D0C6E00BB5501 /* WFSocialListenerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFSocialListenerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87C8E46171D0C6E00BB5501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F87C8E48171D0C6E00BB5501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +140,7 @@
 		F87C8E4C171D0C6E00BB5501 /* WFSocialListenerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F86C5C41174B3D540001E954 /* TwitterAPI_APP_TOKEN.h */,
 				F87C8E55171D0C6E00BB5501 /* AppDelegate.h */,
 				F87C8E56171D0C6E00BB5501 /* AppDelegate.m */,
 				F87C8E5E171D0C6E00BB5501 /* MainStoryboard.storyboard */,
